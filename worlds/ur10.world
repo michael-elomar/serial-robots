@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <world name="UR10 World">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="UR10">
+      <include>
+        <uri>model://ur10</uri>
+      </include>
+    </model>
+  </world>
+</sdf>
