@@ -12,8 +12,6 @@
       <include>
         <uri>model://models/ur10</uri>
       </include>
-      <plugin name="ur10_joint_controller" filename="plugins/bin/libur10_joint_controller.dylib">
-      </plugin>
     </model>
   </world>
 </sdf>
