@@ -12,6 +12,11 @@
       <include>
         <uri>model://models/ur10</uri>
       </include>
+      <plugin name="Ur10JointController" filename="libur10_joint_controller.so">
+        <Kp>10</Kp>
+        <Kd>0</Kd>
+        <Ki>5</Ki>
+      </plugin>
     </model>
   </world>
 </sdf>
